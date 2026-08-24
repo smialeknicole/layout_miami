@@ -6,10 +6,15 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Miami</title>
+    <title>Bose</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
     <link
       rel="stylesheet"
-      href="src/styles/main.scss"
+      href="src/styles/styles.css"
     />
     <script
       src="src/scripts/main.js"
@@ -17,6 +22,214 @@
     ></script>
   </head>
   <body>
-    <h1>Miami</h1>
-  </body>
+        <header class="header" id="home">
+    <nav class="navigation header__desktopnav">
+
+        <a href=""><img src="src/images/Logo.svg"></a>
+
+        <div class="navigation__icons">
+            <a class="phone" href="+1 234 555-55-55">
+                <img src="src/images/Icon-Phone-call.svg">
+                <span class="phone__label">
+                    +1 234 555-55-55
+                </span>
+            </a>
+
+            <a class="burger" href="#menu">
+                <img src="">
+                <span class ="burger__label">
+                    Open menu
+                </span>
+            </a>
+
+        </div>
+    </nav>
+
+     <h1 class="title header__desktoptitle">
+        Your senses.<br>
+        Set free.
+    </h1>
+
+    </header>
+
+   <div class="menu" id="menu">
+        <nav class="navigation">
+        <a class="navigation__icons" href="#home"><img src="src/images/Logo.svg"></a>
+        <a class="navigation__icons" href="#home"><img src="src/images/Icon-Close.svg"></a>
+        </nav>
+
+        <nav class="links menu__links">
+            <ul class="links__list">
+                <li class="links__item"><a href ="#recommended" class="links__link">Recommended</a></li>
+                <li class="links__item"><a href ="#categories" class="links__link">Categories</a></li>
+                <li class="links__item"> <a href ="#about-us" class="links__link">About us</a></li>
+                <li class="links__item"><a href ="#contact-us" class="links__link">Contact us</a></li>
+            </ul>
+        <p class="menu__paragraph">+1 234 5555-55-55</p>
+        <a class="menu__cta" href ="">Call to order</a>
+        </nav>
+
+    </div>
+
+    <main class="content">
+    <section class="section" id="recommended">
+        <div class="title--wrapper">
+        <h2 class="title title--secondary">Recommended</h2>
+        </div>
+
+        <article class="items">
+            <div class="items--wrapper">
+            <img class="items__photo" src="src/images/speaker-ipad.jpg" alt="">
+            <h3 class="title title--tertiary">BEOSOUND A5</h3>
+            <p class="items__description">Huge sound anywhere – in the home or outdoors. Beosound A5 is a Wi-Fi and Bluetooth speaker with long-lasting battery and wireless charging built in.</p>
+            <p class="items__price">$ 1299.00</p>
+        </div>
+
+            <div class="items--wrapper"><img class="items__photo" src="src/images/headphones-ipad.jpg" alt="">
+            <h3 class="title title--tertiary">BEOPLAY HX</h3>
+            <p class="items__description">Wireless noise-cancelling headphones. Listen in comfort whether you're on a call, working from home or taking a moment for yourself.</p>
+            <p class="items__price">$ 499.00</p>
+        </div>
+
+            <div class="items--wrapper"><img class="items__photo" src="src/images/soundbar-ipad.jpg" alt="">
+            <h3 class="title title--tertiary">BEOSOUND THEATRE</h3>
+            <p class="items__description">Four patent-pending acoustic innovations in one sleek soundbar envelop you in sound from every angle. Made to fit any TV, and last for generations.</p>
+            <p class="items__price">$ 3199.00</p>
+        </div>
+        </article>
+    </section>
+
+    <section class="section" id="categories">
+        <div class="title--wrapper">
+            <h2 class="title title--secondary">
+            Sound. Vision.<br>
+            It’s your pick.
+            </h2>
+        </div>
+
+    <article class="gallery">
+        <div class="pictures gallery--wrapper">
+
+            <div class ="pictures__item">
+                <img class="pictures__image" src="src/images/Image-5.jpg" alt="">
+            </div>
+
+            <div class ="pictures__item">
+                <img class="pictures__image" src="src/images/Image-6.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="title--wrapper">
+            <h3 class="title title--categories">Portable speakers</h3>
+        </div>
+    </article>
+
+     <article class="gallery">
+        <div class="pictures gallery--wrapper">
+
+            <div class ="pictures__item">
+                <img class="pictures__image" src="src/images/Image-7.jpg" alt="">
+            </div>
+
+            <div class ="pictures__item">
+                <img class="pictures__image" src="src/images/Image-8.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="title--wrapper">
+            <h3 class="title title--categories">Earphones</h3>
+        </div>
+    </article>
+
+     <article class="gallery">
+        <div class="pictures gallery--wrapper">
+
+            <div class ="pictures__item">
+            <img class="pictures__image" src="src/images/Image-9.jpg" alt="">
+            </div>
+
+            <div class ="pictures__item">
+            <img class="pictures__image" src="src/images/Image-10.jpg" alt="">
+            </div>
+
+        </div>
+
+            <div class="title--wrapper">
+            <h3 class="title title--categories">Smart Home</h3>
+            </div>
+    </article>
+
+        <div class="pictures gallery--wrapper">
+            <a href="#" class="button">View all</a>
+        </div>
+
+    </section>
+
+        <img class="section__image" src="src/images/section_image.jpg" alt="">
+
+        <section class="section section--wrapper" id="about-us">
+            <h2 class="title title--lessspacing">
+            Timeless, for 50
+            years and counting
+            </h2>
+             <p class="article__paragraph">
+                Bang & Olufsen is expanding its Recreated Classics
+                Program with the launch of Beosystems – a limited
+                edition music system that transcends time by bridging
+                the gap between one of our iconic designs from 1972 and
+                today’s cutting-edge digital technology.
+            </p>
+        </section>
+
+        <section class="section" id="contact-us">
+            <div class="title--wrapper">
+            <h2 class="title title--secondary">
+            Contact us
+            </h2>
+            </div>
+
+        <div class ="contact">
+            <form class="form contact__form">
+
+                <div class="form__item">
+                    <label class="form__label" for="name">Name</label>
+                    <input id="name" class="form__input" type="text"
+                    placeholder="Name">
+                </div>
+
+                <div class="form__item">
+                    <label class="form__label" for="Email">Email</label>
+                    <input id="email" class="form__input" type="text"
+                    placeholder="Email">
+                </div>
+
+                <div class="form__item">
+                    <label class="form__label" for="Message">Message</label>
+                    <textarea id="message" class="form__textarea"
+                    placeholder="Message"></textarea>
+                    <button class="button">Send</button>
+                </div>
+            </form>
+
+        <section class="section contact__adress">
+            <adress class="adress">
+
+                <h4 class="title title--small">Phone</h4>
+                <p class="adress__phone">+1 234 5555-55-55</p>
+
+                <h4 class="title title--small">Email</h4>
+                <p class="adress__email">hello@bang&olufsen.com</p>
+
+                <h4 class="title title--small">Adress</h4>
+                <p class="adress__content">
+                    400 first ave.<br>
+                    suite 700 <br>
+                    Minneapolis, MN 55401
+                </p>
+            </adress>
+        </section>
+
+        </div>
+</main>
+</body>
 </html>

@@ -1,0 +1,51 @@
+@use '../utils/mixins.scss' as *;
+
+.adress {
+  &__wrapper {
+    grid-column: span 2;
+
+    @include grid;
+
+    h4,
+    p {
+      grid-column: 1/-1;
+    }
+
+    @include for-ipad {
+      grid-column: 1 / 4;
+    }
+
+    @include for-desktop {
+      grid-column: 1 / 6;
+    }
+  }
+
+  &__phone {
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+    margin-bottom: 24px;
+  }
+
+  &__email {
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+    margin-bottom: 24px;
+  }
+
+  &__content {
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+  }
+}
