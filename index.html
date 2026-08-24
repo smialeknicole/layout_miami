@@ -7,11 +7,12 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Bose</title>
+    <link rel="icon" href="src/images/favicon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    
+
     <link
       rel="stylesheet"
       href="src/styles/styles.css"
@@ -20,6 +21,7 @@
       src="src/scripts/main.js"
       defer
     ></script>
+
   </head>
   <body>
         <header class="header" id="home">
@@ -28,7 +30,7 @@
         <a href=""><img src="src/images/Logo.svg"></a>
 
         <div class="navigation__icons">
-            <a class="phone" href="+1 234 555-55-55">
+            <a class="phone" href="tel: +1 234 555-55-55">
                 <img src="src/images/Icon-Phone-call.svg">
                 <span class="phone__label">
                     +1 234 555-55-55
@@ -192,19 +194,19 @@
             <form class="form contact__form">
 
                 <div class="form__item">
-                    <label class="form__label" for="name">Name</label>
+                    <label class="form__label" for="name" required>Name</label>
                     <input id="name" class="form__input" type="text"
                     placeholder="Name">
                 </div>
 
                 <div class="form__item">
-                    <label class="form__label" for="Email">Email</label>
+                    <label class="form__label" for="Email" required>Email</label>
                     <input id="email" class="form__input" type="text"
                     placeholder="Email">
                 </div>
 
                 <div class="form__item">
-                    <label class="form__label" for="Message">Message</label>
+                    <label class="form__label" for="Message" required>Message</label>
                     <textarea id="message" class="form__textarea"
                     placeholder="Message"></textarea>
                     <button class="button">Send</button>
@@ -215,7 +217,9 @@
             <adress class="adress">
 
                 <h4 class="title title--small">Phone</h4>
-                <p class="adress__phone">+1 234 5555-55-55</p>
+                <a class="adress__phone" href="tel: +1 234 555-55-55">
+                  +1 234 5555-55-55
+                </a>
 
                 <h4 class="title title--small">Email</h4>
                 <p class="adress__email">hello@bang&olufsen.com</p>

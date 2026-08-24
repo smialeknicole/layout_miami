@@ -661,6 +661,7 @@ table {
   }
 }
 .adress__phone {
+  display: inline-block;
   font-family: Manrope, sans-serif;
   font-weight: 400;
   font-style: Regular;
@@ -668,6 +669,11 @@ table {
   line-height: 140%;
   letter-spacing: 0.15px;
   margin-bottom: 24px;
+  text-decoration: none;
+  color: #1b2129;
+}
+.adress__phone:hover {
+  color: #f98921;
 }
 .adress__email {
   font-family: Manrope, sans-serif;
@@ -678,6 +684,9 @@ table {
   letter-spacing: 0.15px;
   margin-bottom: 24px;
 }
+.adress__email:hover {
+  color: #f98921;
+}
 .adress__content {
   font-family: Manrope, sans-serif;
   font-weight: 400;
@@ -685,6 +694,9 @@ table {
   font-size: 16px;
   line-height: 140%;
   letter-spacing: 0.15px;
+}
+.adress__content:hover {
+  color: #f98921;
 }
 
 .navigation {
@@ -794,6 +806,10 @@ table {
   .menu__cta {
     grid-column: span 12;
   }
+}
+
+body:has(.menu:target) {
+  overflow: hidden;
 }
 
 .links {

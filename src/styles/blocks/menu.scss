@@ -79,3 +79,7 @@
     }
   }
 }
+
+body:has(.menu:target) {
+  overflow: hidden;
+}
