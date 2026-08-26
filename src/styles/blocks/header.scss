@@ -9,6 +9,7 @@
   min-height: 100vh;
   padding: 0 20px 40px;
   box-sizing: border-box;
+  overflow-x: hidden;
 
   @include grid;
 
