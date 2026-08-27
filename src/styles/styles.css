@@ -273,6 +273,7 @@ table {
   min-height: 100vh;
   padding: 0 20px 40px;
   box-sizing: border-box;
+  overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(2, 130px);
   justify-content: center;
