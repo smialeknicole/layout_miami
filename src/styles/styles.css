@@ -772,6 +772,8 @@ table {
   font-size: 16px;
   line-height: 140%;
   letter-spacing: 0.15px;
+  text-decoration: none;
+  color: #1b2129;
 }
 
 .adress__content:hover {
@@ -806,6 +808,7 @@ table {
   right: 0;
   transform: translateX(-100%);
   transition: 0.7s ease-in-out;
+  overflow-y: auto;
   display: grid;
   grid-template-columns: repeat(2, 130px);
   justify-content: center;

@@ -90,7 +90,7 @@
         </ul>
 
         <p class="menu__paragraph">+1 234 5555-55-55</p>
-        <a class="menu__cta" href ="">Call to order</a>
+        <a class="menu__cta" href ="+1 234 5555-55-55">Call to order</a>
       </nav>
 
     </div>
@@ -195,73 +195,115 @@
         </div>
       </section>
 
-        <img class="section__image" src="src/images/section_image.jpg" alt="">
+      <img class="section__image" src="src/images/section_image.jpg" alt="">
 
-        <section class="section section--wrapper" id="about-us">
-            <h2 class="title title--lessspacing">
+      <section class="section section--wrapper" id="about-us">
+        <h2 class="title title--lessspacing">
             Timeless, for 50
             years and counting
-            </h2>
-             <p class="article__paragraph">
-                Bang & Olufsen is expanding its Recreated Classics
-                Program with the launch of Beosystems – a limited
-                edition music system that transcends time by bridging
-                the gap between one of our iconic designs from 1972 and
-                today’s cutting-edge digital technology.
-            </p>
-        </section>
+        </h2>
+        <p class="article__paragraph">
+          Bang & Olufsen is expanding its Recreated Classics
+          Program with the launch of Beosystems – a limited
+          edition music system that transcends time by bridging
+          the gap between one of our iconic designs from 1972 and
+          today’s cutting-edge digital technology.
+        </p>
+      </section>
 
-        <section class="section" id="contact-us">
-            <div class="title--wrapper">
-            <h2 class="title title--secondary">
+      <section class="section" id="contact-us">
+
+        <div class="title--wrapper">
+          <h2 class="title title--secondary">
             Contact us
-            </h2>
+          </h2>
+        </div>
+
+        <div class="contact">
+          <form class="form contact__form">
+
+            <div class="form__item">
+
+              <label
+              class="form__label"
+              for="name">
+              Name
+              </label>
+
+              <input
+                id="name"
+                class="form__input"
+                type="text"
+                placeholder="Name" required>
+
             </div>
 
-        <div class ="contact">
-            <form class="form contact__form">
+            <div class="form__item">
 
-                <div class="form__item">
-                    <label class="form__label" for="name" required>Name</label>
-                    <input id="name" class="form__input" type="text"
-                    placeholder="Name">
-                </div>
+              <label
+              class="form__label"
+              for="Email">
+              Email
+              </label>
 
-                <div class="form__item">
-                    <label class="form__label" for="Email" required>Email</label>
-                    <input id="email" class="form__input" type="text"
-                    placeholder="Email">
-                </div>
+              <input
+                id="email"
+                class="form__input"
+                type="email"
+                placeholder="Email"
+                required>
 
-                <div class="form__item">
-                    <label class="form__label" for="Message" required>Message</label>
-                    <textarea id="message" class="form__textarea"
-                    placeholder="Message"></textarea>
-                    <button class="button">Send</button>
-                </div>
-            </form>
+            </div>
 
-        <section class="section contact__adress">
-            <adress class="adress">
+            <div class="form__item">
 
-                <h4 class="title title--small">Phone</h4>
-                <a class="adress__phone" href="tel: +1 234 555-55-55">
-                  +1 234 5555-55-55
-                </a>
+              <label
+              class="form__label"
+              for="Message">
+              Message
+              </label>
 
-                <h4 class="title title--small">Email</h4>
-                <p class="adress__email">hello@bang&olufsen.com</p>
+              <textarea
+              id="message"
+              class="form__textarea"
+              placeholder="Message"
+              required>
+              </textarea>
 
-                <h4 class="title title--small">Adress</h4>
-                <p class="adress__content">
-                    400 first ave.<br>
-                    suite 700 <br>
-                    Minneapolis, MN 55401
-                </p>
-            </adress>
-        </section>
+              <button
+              class="button">
+              Send
+              </button>
 
+            </div>
+          </form>
         </div>
-</main>
-</body>
+      </section>
+
+      <section class="section contact__adress">
+        <address class="adress">
+
+          <h4 class="title title--small">Phone</h4>
+
+          <a class="adress__phone" href="tel: +1 234 555-55-55">
+            +1 234 5555-55-55
+          </a>
+
+          <h4 class="title title--small">Email</h4>
+          <p class="adress__email">hello@bang&olufsen.com</p>
+
+          <h4 class="title title--small">Adress</h4>
+
+          <a
+            href="https://maps.app.goo.gl/8a7xKNx1vyUU8nyz8"
+            class="adress__content"
+            target="_blank">
+            400 first ave.<br>
+            suite 700 <br>
+            Minneapolis, MN 55401
+          </a>
+        </address>
+      </section>
+    </main>
+  </body>
 </html>
