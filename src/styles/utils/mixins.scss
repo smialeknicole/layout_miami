@@ -12,21 +12,21 @@
 
 @mixin grid() {
   display: grid;
-  grid-template-columns: repeat(2, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 
   // grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   gap: 20px;
 
   @include for-ipad {
-    grid-template-columns: repeat(6, 80px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 
     // grid-template-rows: repeat(6, 1fr);
     gap: 24px;
   }
 
   @include for-desktop {
-    grid-template-columns: repeat(12, 63px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 
     // grid-template-rows: repeat(3, 1fr);
     gap: 24px;

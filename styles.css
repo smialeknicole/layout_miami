@@ -147,19 +147,19 @@ table {
 .title--wrapper {
   grid-template-rows: auto;
   display: grid;
-  grid-template-columns: repeat(2, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   justify-content: center;
   gap: 20px;
 }
 @media (min-width: 744px) {
   .title--wrapper {
-    grid-template-columns: repeat(6, 80px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
 @media (min-width: 1020px) {
   .title--wrapper {
-    grid-template-columns: repeat(12, 63px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
@@ -262,19 +262,19 @@ table {
   box-sizing: border-box;
   overflow-x: hidden;
   display: grid;
-  grid-template-columns: repeat(2, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   justify-content: center;
   gap: 20px;
 }
 @media (min-width: 744px) {
   .header {
-    grid-template-columns: repeat(6, 80px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
 @media (min-width: 1020px) {
   .header {
-    grid-template-columns: repeat(12, 63px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
@@ -331,19 +331,19 @@ table {
 .items {
   grid-template-rows: auto;
   display: grid;
-  grid-template-columns: repeat(2, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   justify-content: center;
   gap: 20px;
 }
 @media (min-width: 744px) {
   .items {
-    grid-template-columns: repeat(6, 80px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
 @media (min-width: 1020px) {
   .items {
-    grid-template-columns: repeat(12, 63px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
@@ -410,19 +410,19 @@ table {
   gap: 20px;
   margin-bottom: 16px;
   display: grid;
-  grid-template-columns: repeat(2, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   justify-content: center;
   gap: 20px;
 }
 @media (min-width: 744px) {
   .gallery--wrapper {
-    grid-template-columns: repeat(6, 80px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
 @media (min-width: 1020px) {
   .gallery--wrapper {
-    grid-template-columns: repeat(12, 63px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
@@ -517,19 +517,19 @@ table {
   box-sizing: border-box;
   margin-bottom: 64px;
   display: grid;
-  grid-template-columns: repeat(2, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   justify-content: center;
   gap: 20px;
 }
 @media (min-width: 744px) {
   .section--wrapper {
-    grid-template-columns: repeat(6, 80px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
 @media (min-width: 1020px) {
   .section--wrapper {
-    grid-template-columns: repeat(12, 63px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
@@ -635,19 +635,19 @@ table {
 .adress__wrapper {
   grid-column: span 2;
   display: grid;
-  grid-template-columns: repeat(2, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   justify-content: center;
   gap: 20px;
 }
 @media (min-width: 744px) {
   .adress__wrapper {
-    grid-template-columns: repeat(6, 80px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
 @media (min-width: 1020px) {
   .adress__wrapper {
-    grid-template-columns: repeat(12, 63px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
@@ -738,19 +738,19 @@ table {
   transition: 0.7s ease-in-out;
   overflow-y: auto;
   display: grid;
-  grid-template-columns: repeat(2, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   justify-content: center;
   gap: 20px;
 }
 @media (min-width: 744px) {
   .menu {
-    grid-template-columns: repeat(6, 80px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
 @media (min-width: 1020px) {
   .menu {
-    grid-template-columns: repeat(12, 63px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
@@ -854,19 +854,19 @@ body:has(.menu:target) {
 .contact {
   grid-template-rows: repeat(2, auto);
   display: grid;
-  grid-template-columns: repeat(2, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   justify-content: center;
   gap: 20px;
 }
 @media (min-width: 744px) {
   .contact {
-    grid-template-columns: repeat(6, 80px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
 @media (min-width: 1020px) {
   .contact {
-    grid-template-columns: repeat(12, 63px);
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 24px;
   }
 }
