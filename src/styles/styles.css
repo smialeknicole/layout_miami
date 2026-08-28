@@ -752,6 +752,7 @@ table {
 }
 
 .adress__email {
+  display: inline-block;
   font-family: Manrope, sans-serif;
   font-weight: 400;
   font-style: Regular;
@@ -759,6 +760,8 @@ table {
   line-height: 140%;
   letter-spacing: 0.15px;
   margin-bottom: 24px;
+  text-decoration: none;
+  color: #1b2129;
 }
 
 .adress__email:hover {
